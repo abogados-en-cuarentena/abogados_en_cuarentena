@@ -3,6 +3,7 @@
 @import url("components/banner.css");
 @import url("components/container.css");
 @import url("components/card.css");
+@import url("components/button.css");
 
 
 h1 {
@@ -10,16 +11,19 @@ h1 {
   font-weight: 700;
   color: white;
   text-shadow: 1px 1px #484647;
-  font-size: 64px;
+  font-size: 48px;
   }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  color: #A5272C;
+
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
+  background-color: #FDFAF7;
 }
 

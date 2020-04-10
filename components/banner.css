@@ -3,6 +3,7 @@
   background-size: cover;
   padding: 159px 0;
   background-position: center;
+  text-align: center;
 }
 
 
@@ -11,5 +12,6 @@
   font-weight: bolder;
   font-size: 32px;
   text-shadow: 1px 1px #484647;
+  margin: 56px auto;
 
 }
