@@ -42,3 +42,22 @@
   text-align: center;
   flex-grow: 1;
 }
+
+
+.card-text h3 {
+padding-top: 40px;
+}
+
+#last-card {
+  padding: 24px;
+}
+
+.text-link{
+  color: #A5272C;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: #A5272C;
+  text-decoration: underline;
+}
