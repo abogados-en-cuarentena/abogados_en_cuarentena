@@ -27,3 +27,23 @@ body {
   background-color: #FDFAF7;
 }
 
+a {
+  text-decoration: none;
+}
+
+.align-text {
+text-align: center;
+}
+
+.align-text h1 {
+  color: #A5272C;
+}
+
+
+.align-text li {
+  text-align: left;
+}
+
+.align-text p {
+ text-align: left;
+}
