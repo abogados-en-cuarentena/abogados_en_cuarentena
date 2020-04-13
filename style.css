@@ -17,14 +17,14 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  color: #A5272C;
+  color: #532534;
 
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: lighter;
-  background-color: #FDFAF7;
+  background-color: #F6F5F8;
 }
 
 a {
@@ -37,7 +37,7 @@ padding: 0 30px;
 }
 
 .align-text h1, h2 {
-  color: #A5272C;
+  color: #532534;
 }
 
 

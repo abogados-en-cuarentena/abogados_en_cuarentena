@@ -22,7 +22,7 @@
 
 .fa, .fas, .far {
   font-size: 32px;
-  color: #A5272C;
+  color: #532534;
 
 }
 
@@ -57,11 +57,11 @@ padding-top: 40px;
 }
 
 .text-link{
-  color: #A5272C;
+  color: #532534;
   text-decoration: none;
 }
 
 .text-link:hover {
-  color: #A5272C;
+  color: #532534;
   text-decoration: underline;
 }
