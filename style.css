@@ -33,17 +33,18 @@ a {
 
 .align-text {
 text-align: center;
+padding: 0 30px;
 }
 
-.align-text h1 {
+.align-text h1, h2 {
   color: #A5272C;
 }
 
 
 .align-text li {
-  text-align: left;
+  text-align: justify;
 }
 
 .align-text p {
- text-align: left;
+  text-align: justify;
 }
