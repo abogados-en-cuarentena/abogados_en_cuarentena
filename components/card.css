@@ -29,13 +29,16 @@
 
 .card-service {
   display: flex;
-  text-align:left;
+  text-align: left;
   align-items: center;
 }
 
 
 .card-icon {
-  padding: 16px;
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+
 }
 
 .card-text {
