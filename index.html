@@ -6,6 +6,9 @@
   <meta name="description" content="Asesoría jurídica gratuita para personas de bajos recursos">
   <meta name="keywords" content="Colombia, abogados, COVID19, probono">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/c9472bd7fe.js" crossorigin="anonymous"></script>
 
@@ -16,10 +19,29 @@
 <body>
 
 
+  <div class="navigation-bar">
+     
+        <div class="nav-item active">
+          <a href="#">Inicio</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="pages/reglamento.html">Reglamento</a>          
+        </div>  
+
+        <div class="nav-item">
+          <a href="pages/form_lawyer.html">Voluntarios</a>
+        </div>
+        <div class="cfa-button">
+          <a id="cfa-link" href="pages/form_client.html">Asistencia</a>
+        </div>
+
+  </div>
+
   <div class="banner">
 
-    <div class="banner-text container">
-        <img class="logo-general" src="images/logo.png" alt="Logo">
+    <div class="container">
+      <img class="logo-general" src="images/logo.png" alt="Logo">
         <h1>Abogados en Cuarentena</h1>
 
         <p>Somos un grupo de abogados colombianos. Queremos ponernos al servicio de
@@ -29,83 +51,99 @@
       <p>¿Necesitas ayuda legal gratuita en tiempos de coronavirus?</p>
          <p><strong>Aquí te ayudamos a contactar a un abogado.</strong></p>
 
-      <a class="button-redish" href="pages/form_client.html" target="_blank">Contáctanos</a>
+      <a class="btn btn-success btn-lg" href="pages/form_client.html"><strong>Contáctanos</strong></a>
+    </div>
+        
 
     </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+
+
+
+
+<!-- Old Body divisions bewlos this line -->
+
+  <!-- <div class="">
+
+
 
   </div>
 
 
   <div class="container">
 
-      <div class="card-info">
+      <div class="">
         <h2>Servicios</h2>
 
-        <div class="card-service">
-          <div class = "card-icon"><i class="fas fa-venus"></i></div>
-          <div class="card-text"><p>Asesoría a víctimas de <strong>violencia intrafamiliar y violencia de género</strong></p></div>
+        <div class="">
+          <div class = ""><i class="fas fa-venus"></i></div>
+          <div class=""><p>Asesoría a víctimas de <strong>violencia intrafamiliar y violencia de género</strong></p></div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="fas fa-briefcase"></i></div>
-          <div class="card-text"><p>Consultas de derecho laboral (por ejemplo sobre cesantías, despidos colectivos o individuales, licencias y vacaciones no remuneradas)</p></div>
+        <div class="">
+          <div class=""><i class="fas fa-briefcase"></i></div>
+          <div class=""><p>Consultas de derecho laboral (por ejemplo sobre cesantías, despidos colectivos o individuales, licencias y vacaciones no remuneradas)</p></div>
         </div>
 
-        <div class="card-service">
-          <div class = "card-icon"><i class="fas fa-vial"></i></div>
-          <div class="card-text"><p>Práctica de la prueba de <strong>diagnóstico</strong> del COVID-19</p></div>
+        <div class="">
+          <div class = ""><i class="fas fa-vial"></i></div>
+          <div class=""><p>Práctica de la prueba de <strong>diagnóstico</strong> del COVID-19</p></div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="fas fa-hospital-user"></i></div>
-          <div class="card-text"><p> Acceso al <strong>tratamiento médico</strong> en caso de ser diagnosticado con COVID-19</p></div>
+        <div class="">
+          <div class=""><i class="fas fa-hospital-user"></i></div>
+          <div class=""><p> Acceso al <strong>tratamiento médico</strong> en caso de ser diagnosticado con COVID-19</p></div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="fas fa-file-alt"></i></div>
-          <div class="card-text"><p>Si eres beneficiari@ de Familias en Acción, Adulto Mayor y/o Jóvenes en Acción, acceso al <strong>giro adicional</strong></p></div>
+        <div class="">
+          <div class=""><i class="fas fa-file-alt"></i></div>
+          <div class=""><p>Si eres beneficiari@ de Familias en Acción, Adulto Mayor y/o Jóvenes en Acción, acceso al <strong>giro adicional</strong></p></div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="fas fa-faucet"></i></div>
-          <div class="card-text"><p>Solicitar la <strong>reconexión</strong> del servicio de acueducto, alcantarillado y/o agua potable</p></div>
+        <div class="">
+          <div class=""><i class="fas fa-faucet"></i></div>
+          <div class=""><p>Solicitar la <strong>reconexión</strong> del servicio de acueducto, alcantarillado y/o agua potable</p></div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="fas fa-file-invoice-dollar"></i></div>
-          <div class="card-text"><p> <strong>Suspender el cobro</strong> de los servicios públicos entre el 20 de marzo y el 20 de abril de 2020</p></div>
+        <div class="">
+          <div class=""><i class="fas fa-file-invoice-dollar"></i></div>
+          <div class=""><p> <strong>Suspender el cobro</strong> de los servicios públicos entre el 20 de marzo y el 20 de abril de 2020</p></div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="fas fa-map-marked-alt"></i></div>
-          <div class="card-text"><p>Por el momento, podemos ayudarte si estás en <strong>Bogotá</strong> o <strong>Medellín</strong></p></div>
+        <div class="">
+          <div class=""><i class="fas fa-map-marked-alt"></i></div>
+          <div class=""><p>Por el momento, podemos ayudarte si estás en <strong>Bogotá</strong> o <strong>Medellín</strong></p></div>
         </div>
       </div>
 
 
-      <div class="card-info">
+      <div class="">
         <h2>¿A quién prestamos asistencia?</h2>
         <p>Si cumples son los siguientes requisitos y tienes alguna necesidad de asesoría
         legal, podemos ayudarte a ponerte en contacto con un abogado:</p>
         <p>Nuestros usuarios deben cumplir <strong>una de las siguientes condiciones</strong>:</p>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="far fa-check-circle"></i></div>
-          <div class="card-text">
+        <div class="">
+          <div class=""><i class="far fa-check-circle"></i></div>
+          <div class="">
             <p> Tener ingresos inferiores a 2 salarios mínimos legales mensuales vigentes</p>
           </div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="far fa-check-circle"></i> </div>
-          <div class="card-text">
+        <div class="">
+          <div class=""><i class="far fa-check-circle"></i> </div>
+          <div class="">
             <p>Ser beneficiari@ de uno de los programas gubernamentales Familias en Acción, Adulto Mayor y/o Jóvenes en Acción</p>
           </div>
         </div>
 
-        <div class="card-service">
-          <div class="card-icon"><i class="far fa-check-circle"></i></div>
-          <div class="card-text">
+        <div class="">
+          <div class=""><i class="far fa-check-circle"></i></div>
+          <div class="">
             <p> Estar registrad@ en el Sistema de Identificación de Potenciales Beneficiarios de Programas Sociales (SISBEN)</p>
           </div>
         </div>
@@ -116,37 +154,35 @@
         </div>
       </div>
 
-      <div class="card-info">
+      <div class="">
 
 
-          <div class="card-text">
+          <div class="">
           <h3>Necesito la asistencia de un abogado:</h3>
-          <a class="button-red-smaller" href="pages/form_client.html" target="_blank">Inscríbete</a>
+          <a class="" href="pages/form_client.html" target="_blank">Inscríbete</a>
         </div>
 
-        <div class="card-text">
+        <div class="">
           <h3>Soy abogado y quiero ayudar:</h3>
-          <a class="button-red-smaller" href="pages/form_lawyer.html" target="_blank">Postúlate</a>
+          <a class="" href="pages/form_lawyer.html" target="_blank">Postúlate</a>
         </div>
 
-        <div id="last-card"><p>O <a class="text-link" href="mailto:abogadosencuarentena@gmail.com"><strong>contáctanos</strong></a> para más información</p></div>
+        <div id=""><p>O <a class="" href="mailto:abogadosencuarentena@gmail.com"><strong>contáctanos</strong></a> para más información</p></div>
 
 
       </div>
 
-
-
-
-
-
-    <div class="card-info">
-      <h2><a class= "text-link" href="https://instagram.com/abogados_en_cuarentena?igshid=hhbk1f8jiv3" target="_blank">Síguenos en <i class="fab fa-instagram"></i></a></h2>
+    <div class="">
+      <h2><a class= "" href="https://instagram.com/abogados_en_cuarentena?igshid=hhbk1f8jiv3" target="_blank">Síguenos en <i class="fab fa-instagram"></i></a></h2>
     </div>
-</div>
+</div> -->
 
 
 
-</body>
+ 
+ 
+ 
+
 
 
 </html>
