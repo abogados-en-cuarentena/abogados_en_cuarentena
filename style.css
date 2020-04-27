@@ -1,9 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto:ital,wght@0,300;0,700;1,300&display=swap');
 @import url("components/banner.css");
-@import url("components/container.css");
+/*@import url("components/container.css");*/
 @import url("components/card.css");
 @import url("components/button.css");
+@import url("components/navbar.css");
+@import url("components/bottom-cfa.css");
 
 
 h1 {
@@ -11,7 +13,7 @@ h1 {
   font-weight: 700;
   color: white;
   text-shadow: 1px 1px #484647;
-  font-size: 48px;
+  font-size: 32px;
   }
 
 h2 {
@@ -33,7 +35,7 @@ a {
 
 .align-text {
 text-align: center;
-padding: 0 30px;
+padding: 16px 32px;
 }
 
 .align-text h1, h2 {
@@ -52,4 +54,5 @@ padding: 0 30px;
 
 .logo-general {
   height: 6em ;
+  margin-top: 16px;
 }

@@ -1,0 +1,30 @@
+
+.bottom-cfa {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: space-around;
+  margin-top: 16px;
+  padding: 24px 0;
+}
+
+@media (max-width: 540px) {
+  .bottom-cfa {
+    flex-direction: column;
+  }
+}
+
+
+.bottom-callforaction {
+  text-align: center;
+}
+
+.bottom-callforaction h4 {
+  color: #532534;
+  font-weight: bold;
+}
+
+.bottom-callforaction a {
+  margin-bottom: 8px;
+}

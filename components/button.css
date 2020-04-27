@@ -1,5 +1,17 @@
+
+.btn-primary {
+   background-color: #532534 !important;
+   width: 136px;
+   border-color: #532534 !important;
+}
+
+.btn-primary:hover {
+  background-color: #330b10 !important;
+}
+
+
 .button-redish {
-    background-color: #532534;
+
     color: white;
     padding: 16px 15px;
     border-radius: 8px;
