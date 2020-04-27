@@ -3,7 +3,7 @@
 
 	display: inline-grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	align-items: center;	
+	align-items: center;
 	text-align: center;
 	height: 40px;
 	width: 100%;
@@ -17,10 +17,10 @@
 	color:white;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
-	
+
 }
 
-.navigation-bar a:hover {
+.other-navlinks:hover {
 	text-decoration: underline;
 }
 
@@ -31,13 +31,17 @@
 }
 
 .active {
-	text-decoration: underline;
+	border-bottom: 2px solid white;
+}
+
+.non-nactive :hover {
+  border-bottom: 2px solid white;
 }
 
 .nav-item {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;		
+	justify-content: space-around;
 	background-color: #532534;
 	height: 100%;
 	border-style: solid;
@@ -51,13 +55,29 @@
 	justify-content: space-around;
 	background-color: #5cb85c;
     border-color: #4cae4c;
-    margin: 8px 0;    
+    margin: 8px 0;
     padding: 8px;
     height: 100%;
 
 }
 
+.cfa-button:hover {
+  background-color:#449d44;
+  border-color: #398439;
+}
+
 #cfa-link {
 	color: #fff ;
 	font-weight: bolder;
+}
+
+.cfa-button-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #5cb85c;
+    border-color: #4cae4c;
+    margin: 8px 0;
+    padding: 8px;
+    height: 100%;
 }
