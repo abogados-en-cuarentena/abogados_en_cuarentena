@@ -1,7 +1,8 @@
 .banner {
+  /*padding-top: 40px;*/
   background-image: linear-gradient(rgba(0,0,0,0.1) 0%, rgba(1,1,1,0.4) 60%), url(../images/banner.jpg);
   background-size: cover;
-  padding: 32px 16px;
+  padding: 56px 16px;
   background-position: center;
   text-align: center;
   width: 100%;
