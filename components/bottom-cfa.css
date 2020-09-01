@@ -1,0 +1,72 @@
+
+.bottom-cfa {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: space-around;
+  margin-top: 16px;
+  padding: 24px 0;
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .bottom-cfa {
+    flex-direction: column;
+  }
+}
+
+
+.bottom-callforaction {
+  text-align: center;
+}
+
+.bottom-callforaction h4 {
+  color: #532534;
+  font-weight: bold;
+}
+
+.bottom-callforaction a {
+  margin-bottom: 8px;
+}
+
+#instagram-link {
+  color: #532534;
+  text-decoration: none;  
+}
+
+#instagram-link:hover {
+  color: #2A6496;
+  text-decoration: underline;
+}
+
+
+.top-cfa {
+  background: white;
+
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: space-around;
+  margin-top: 16px;
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.top-cfa h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #532534;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.logo-cfa {
+  height: 3em;
+  margin: 0 8px;
+}

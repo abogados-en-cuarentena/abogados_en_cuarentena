@@ -1,0 +1,86 @@
+
+.navigation-bar {
+
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	background-color: #532534;
+	font-size: 16px;
+	position: fixed;
+}
+
+
+
+.navigation-bar a {
+	color:white;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.other-navlinks:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 540px) {
+	.navigation-bar {
+		font-size: 12px;
+	}
+}
+
+.active {
+	border-bottom: 2px solid white;
+}
+
+.non-nactive :hover {
+  border-bottom: 2px solid white;
+}
+
+.nav-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #532534;
+	height: 100%;
+	border-style: solid;
+	border-color:  #532534;
+	border-width: 1px;
+}
+
+.cfa-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #5cb85c;
+    border-color: #4cae4c;
+    margin: 8px 0;
+    padding: 8px;
+    height: 100%;
+    opacity: 1.0;   
+
+}
+
+.cfa-button:hover {
+  background-color:#449d44;
+  border-color: #398439;
+}
+
+#cfa-link {
+	color: #fff ;
+	font-weight: bolder;
+	opacity: 1.0;
+}
+
+.cfa-button-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #5cb85c;
+    border-color: #4cae4c;
+    margin: 8px 0;
+    padding: 8px;
+    height: 100%;
+}

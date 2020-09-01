@@ -1,4 +1,112 @@
- .card-info {
+
+.card-product {
+  overflow: hidden;
+  height: 132px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-icon {
+  height: 100%;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #532534;
+  font-size: 32px;
+  margin-left: 8px;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #9b9292;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+@media (max-width: 780px) {
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+
+@media (max-width: 540px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+/*Card Cartilla*/
+
+
+.card-cartilla {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.card-cartilla img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-cartilla h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-cartilla p {
+  font-size: 12px;
+  line-height: 1.4;
+  /*opacity: .7;*/
+  color: #9b9292;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-cartilla .card-cartilla-infos {
+  padding: 16px;
+}
+
+
+
+
+
+
+
+/* .card-info {
   margin: 32px auto;
   text-align: center;
   padding: 24px 32px;
@@ -22,24 +130,27 @@
 
 .fa, .fas, .far {
   font-size: 32px;
-  color: #A5272C;
+  color: #532534;
 
 }
 
 
 .card-service {
   display: flex;
-  text-align:left;
+  text-align: left;
   align-items: center;
 }
 
 
 .card-icon {
-  padding: 16px;
+  margin: 20px;
+  width: 40px;
+  height: 40px;
+
 }
 
 .card-text {
-  text-align: center;
+
   flex-grow: 1;
 }
 
@@ -50,14 +161,15 @@ padding-top: 40px;
 
 #last-card {
   padding: 24px;
+  text-align: center;
 }
 
 .text-link{
-  color: #A5272C;
+  color: #532534;
   text-decoration: none;
 }
 
 .text-link:hover {
-  color: #A5272C;
+  color: #532534;
   text-decoration: underline;
-}
+}*/
